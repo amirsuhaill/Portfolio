@@ -531,6 +531,15 @@ a{
         flex-direction: column;
     }
   }
+  @media (max-width: 905px){
+    .hero-section{
+        margin: 1rem;
+        padding: 1rem;
+    }
+    .hero-right{
+        width: 90%;
+    }
+  }
 
   @media (max-width: 1150px){
     .project-section{
@@ -557,7 +566,7 @@ a{
   @media (max-width: 953px){
     .skill-container{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
         gap: 2rem;
     }
